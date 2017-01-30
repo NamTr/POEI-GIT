@@ -1,0 +1,20 @@
+# Replication routing definition
+entity.replication.collection:
+  path: '/admin/structure/deployment'
+  defaults:
+    _entity_list: 'replication'
+    _title: 'Deployments'
+  requirements:
+    _permission: 'administer deployments'
+  options:
+    _admin_route: TRUE
+
+entity.replication.add_form:
+  path: '/admin/structure/deployment/add'
+  defaults:
+    _entity_form: replication.add
+    _title_callback: '\Drupal\deploy\Entity\Form\ReplicationForm::addTitle'
+  requirements:
+    _permission: 'administer deployments'
+  options:
+    _admin_route: TRUE

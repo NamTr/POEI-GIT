@@ -1,0 +1,15 @@
+uuid: 392cf3df-8d61-414f-b332-01680b1e9f2f
+langcode: en
+status: true
+dependencies: {  }
+name: hotel_wide
+label: 'hotel wide'
+effects:
+  79baa785-a0fb-4590-8836-acc2978027df:
+    uuid: 79baa785-a0fb-4590-8836-acc2978027df
+    id: image_scale
+    weight: 1
+    data:
+      width: 425
+      height: null
+      upscale: false

@@ -1,0 +1,4 @@
+Administer users by role 8.x-1.x, 2014-12-27
+------------------------------
+#2373971 by ashrafabed: Sandbox project of the module ported to Drupal 8
+ 

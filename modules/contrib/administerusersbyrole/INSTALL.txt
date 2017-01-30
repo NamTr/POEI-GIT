@@ -1,0 +1,12 @@
+Install and enable administerusersbyrole
+
+1) Move the root folder of administerusersbyrole to ./modules/ 
+2) Go to http://yoursite/admin/modules and check the option Administer Users by Role in
+   the package Others
+   
+   Or use drush
+   
+   drush en administerusersbyrole
+   
+3) Read README.md for more information about the modules
+4) Enjoy!

@@ -1,0 +1,8 @@
+services:
+  plugin.manager.config_provider.processor:
+    class: Drupal\config_provider\Plugin\ConfigProviderManager
+    parent: default_plugin_manager
+
+  config_provider.collector:
+    class: Drupal\config_provider\Plugin\ConfigCollector
+    arguments: ['@config.factory', '@config.storage', '@config.manager', '@plugin.manager.config_provider.processor']

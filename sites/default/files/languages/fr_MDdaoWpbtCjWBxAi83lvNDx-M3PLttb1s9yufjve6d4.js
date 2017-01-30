@@ -1,0 +1,1 @@
+window.drupalTranslations = {"strings":{"":{"Submit":"Soumettre","Edit":"Modifier","(active tab)":"(onglet actif)","Save":"Enregistrer","@label":"@label","Enabled":"Activ\u00e9","Cancel":"Annuler","Disabled":"D\u00e9sactiv\u00e9","Close":"Fermer","Next":"Suivant"}},"pluralFormula":{"0":0,"1":0,"default":1}};

@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions for Configuration Provider.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function config_provider_install() {
+  // Set a relatively high weight so ConfigProviderServiceProvider::alter()
+  // will run after other modules' implementations.
+  module_set_weight('config_provider', 100);
+}

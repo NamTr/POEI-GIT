@@ -1,0 +1,13 @@
+name: Taxonomy Views Integrator
+description: Enables you to change the presentation of taxonomy term pages with Views, allowing you to create multiple Views on the same path with different output.
+type: module
+# core: 8.x
+
+dependencies:
+  - views
+  - taxonomy
+# Information added by Drupal.org packaging script on 2016-08-16
+version: '8.x-1.0-beta1+3-dev'
+core: '8.x'
+project: 'tvi'
+datestamp: 1471357743

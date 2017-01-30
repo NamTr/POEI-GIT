@@ -1,0 +1,12 @@
+name: Deploy
+type: module
+description: ' Allows content to be deployed between servers. Either to be used as a content staging solution or to deploy content across a cluster of different sites.'
+# core: 8.x
+dependencies:
+  - workspace
+
+# Information added by Drupal.org packaging script on 2016-10-25
+version: '8.x-1.0-alpha7'
+core: '8.x'
+project: 'deploy'
+datestamp: 1477396455
